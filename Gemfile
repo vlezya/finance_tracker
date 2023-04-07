@@ -5,6 +5,7 @@ ruby '3.1.2'
 
 gem 'rails', '~> 6.1.7', '>= 6.1.7.3'
 gem 'puma', '~> 5.0'
+gem 'sqlite3', '~> 1.4'
 gem 'sass-rails', '>= 6'
 gem 'webpacker', '~> 5.0'
 gem 'turbolinks', '~> 5'
@@ -21,11 +22,6 @@ group :development do
   gem 'rack-mini-profiler', '~> 2.0'
   gem 'listen', '~> 3.3'
   gem 'spring'
-  gem 'sqlite3', '~> 1.4'
-end
-
-group :production do
-  gem 'pg'
 end
 
 group :test do
