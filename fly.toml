@@ -1,9 +1,9 @@
-# fly.toml file generated for finance-tracker-app on 2023-04-07T10:43:34+03:00
+# fly.toml file generated for finance-tracker-app on 2023-04-07T12:51:50+03:00
 
 app = "finance-tracker-app"
 kill_signal = "SIGINT"
 kill_timeout = 5
-primary_region = "waw"
+primary_region = "lhr"
 processes = []
 
 [env]
