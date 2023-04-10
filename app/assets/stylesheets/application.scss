@@ -10,6 +10,7 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
+ *= require font-awesome
  *= require_tree .
  *= require_self
  */
@@ -28,3 +29,15 @@
 .navbar {
   background-color: black !important;
 }
+
+.search-area {
+  padding-top: 30px;
+}
+
+.no-right-padding {
+  padding-right: 0px;
+}
+
+// .no-left-padding {
+//   padding-left: 0px;
+// }
